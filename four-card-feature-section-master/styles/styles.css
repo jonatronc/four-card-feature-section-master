@@ -1,0 +1,135 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: hsl(234, 12%, 34%);
+}
+
+body {
+  background-color: hsl(229, 6%, 99%);
+  display:
+}
+
+/* Header Section */
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 4rem 1rem;
+}
+
+h1 {
+  font-weight: 200;
+  }
+
+h1 span {
+  font-weight: 600;
+}
+
+#intro-paragraph {
+  font-weight: 200;
+  font-size: 1.15rem;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.75rem;
+  padding: 0 25%;
+}
+
+/* ------   Card Section ------  */
+#cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.card {
+  align-self: center;
+  background-color: #FFF;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px -1px hsl(229, 6%, 90%), 0 2px 4px -1px hsl(229, 6%, 94%);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid black;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* card border colors */
+.supervisor {
+  border-color: hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-color: hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-color: hsl(212, 86%, 64%);
+}
+
+.card-icon {
+  align-self: flex-end;
+  padding-top: .5rem;
+}
+
+/* left and right cards */
+.supervisor .calculator {
+  align-self: center;
+}
+
+/* card text styles */
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card p {
+  color: hsl(229, 6%, 66%);
+}
+
+/* ----- FOOTER -----*/
+footer {
+  bottom: 0px;
+  align: center;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+  header {
+    padding: 4em 10% 4em 10%;
+  }
+
+  h1 {
+    font-weight: 200;
+    font-size: 1.25rem;
+    }
+
+  #intro-paragraph {
+    font-size: 1rem;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  #cards {
+    display: block;
+    max-width: 100%;
+    padding: 0 1rem 0 1rem;
+  }
+
+
+}
